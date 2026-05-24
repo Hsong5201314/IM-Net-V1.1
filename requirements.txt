@@ -1,0 +1,19 @@
+# ==========================================
+# IM-Net Environment Requirements
+# ==========================================
+
+# Core Deep Learning (Requires CUDA support)
+torch>=2.0.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.1, <2.0.0    # Restricted below 2.0.0 to prevent compatibility issues
+scipy>=1.10.1            # Essential for LightGCN sparse adjacency matrix operations
+pandas>=2.0.0            # For potential data processing
+
+# Visualization & Logging
+matplotlib>=3.7.1        # Required for generating RQ4 Stress Test figures
+seaborn>=0.12.2          # (Optional) For advanced plot styling
+
+# Utilities
+tqdm>=4.65.0             # For training loop progress bars
+scikit-learn>=1.2.2      # Standard machine learning utilities
